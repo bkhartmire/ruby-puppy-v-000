@@ -5,6 +5,6 @@ class Dog
     @@all << self
   end
   attr_accessor :name
-  def self.all? { |dog| puts dog }
+  def self.all? { |dog| puts dog.name }
   end
 end
